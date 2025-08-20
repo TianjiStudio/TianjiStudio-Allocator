@@ -1,8 +1,7 @@
 # Allocator Bookkeeping Repository for Tianji Studio Fil+
 
 ## Allocator JSON Link
-
-[Link to Tianji Studio Fil+ Allocator JSON](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/1024.json)
+[Link to Tianji Studio Fil+ Allocator JSON](https://github.com/filecoin-project/Allocator-Registry/blob/main/Allocators/recdSj8WCMV61KMnZ.json)
 
 ## Client Dilligence
 
