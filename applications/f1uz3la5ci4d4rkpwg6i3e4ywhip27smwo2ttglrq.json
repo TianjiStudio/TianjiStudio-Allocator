@@ -36,11 +36,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-11-01 00:20:09.725711493 UTC",
+    "State": "StartSignDatacap",
+    "Validated At": "2025-11-01 04:17:12.993941988 UTC",
     "Validated By": "TianjiStudio",
     "Active": true,
-    "Updated At": "2025-11-01 00:20:09.725716096 UTC",
+    "Updated At": "2025-11-01 04:17:12.993937963 UTC",
     "Active Request ID": "302bf1c9-f68c-4c44-988c-7503b26cca01",
     "On Chain Address": "f1uz3la5ci4d4rkpwg6i3e4ywhip27smwo2ttglrq",
     "Multisig Address": "false",
@@ -54,7 +54,16 @@
       "Updated At": "2025-11-01 00:20:09.725720236 UTC",
       "Active": true,
       "Allocation Amount": "54975581388800 B",
-      "Signers": []
+      "Amount of Datacap Sent to Contract": "54975581388800 B",
+      "Signers": [
+        {
+          "Github Username": "TianjiStudio",
+          "Signing Address": "f1ixrkncezvsbsdijmc3vhk7v7bkowbvfsnpskkjy",
+          "Created At": "2025-11-01 04:17:09.505000000 UTC",
+          "Message CID": "bafy2bzacedzzpqnsrbbvqff7fime3jhhj7hutbg63w5kzlsra5efoyx4qppz4",
+          "Increase allowance CID": "bafy2bzacecp632fo4jw7dzxbjtcucuic2hilaokjct4ekufgwovnea6llk6zm"
+        }
+      ]
     }
   ]
 }
