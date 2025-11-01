@@ -2,6 +2,7 @@
   "Version": "1.3",
   "ID": "f1uz3la5ci4d4rkpwg6i3e4ywhip27smwo2ttglrq",
   "Issue Number": "1",
+  "Client Contract Address": "f410fp263er55hrywugpn5tzotzw67ge7mwu6zyy5t3y",
   "Client": {
     "Name": "IDEAM - Instituto de Hidrología, Meteorología y Estudios Ambientales",
     "Region": "Colombia",
@@ -35,15 +36,25 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "KYCRequested",
-    "Validated At": "",
-    "Validated By": "",
+    "State": "ReadyToSign",
+    "Validated At": "2025-11-01 00:20:09.725711493 UTC",
+    "Validated By": "TianjiStudio",
     "Active": true,
-    "Updated At": "2025-10-31 09:58:43.583145182 UTC",
-    "Active Request ID": "",
+    "Updated At": "2025-11-01 00:20:09.725716096 UTC",
+    "Active Request ID": "302bf1c9-f68c-4c44-988c-7503b26cca01",
     "On Chain Address": "f1uz3la5ci4d4rkpwg6i3e4ywhip27smwo2ttglrq",
     "Multisig Address": "false",
     "edited": false
   },
-  "Allocation Requests": []
+  "Allocation Requests": [
+    {
+      "ID": "302bf1c9-f68c-4c44-988c-7503b26cca01",
+      "Request Type": "First",
+      "Created At": "2025-11-01 00:20:09.725718801 UTC",
+      "Updated At": "2025-11-01 00:20:09.725720236 UTC",
+      "Active": true,
+      "Allocation Amount": "54975581388800 B",
+      "Signers": []
+    }
+  ]
 }
