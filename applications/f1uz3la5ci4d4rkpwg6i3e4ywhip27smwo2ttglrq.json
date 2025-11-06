@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ChangesRequested",
+    "State": "Granted",
     "Validated At": "2025-11-04 13:01:12.096330399 UTC",
     "Validated By": "TianjiStudio",
     "Active": true,
