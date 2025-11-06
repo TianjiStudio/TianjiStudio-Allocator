@@ -35,7 +35,7 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
+    "State": "ChangesRequested",
     "Validated At": "2025-11-04 13:01:12.096330399 UTC",
     "Validated By": "TianjiStudio",
     "Active": true,
@@ -43,7 +43,7 @@
     "Active Request ID": "b5ee4d54-f721-42d5-a115-ec73a571c6be",
     "On Chain Address": "f1uz3la5ci4d4rkpwg6i3e4ywhip27smwo2ttglrq",
     "Multisig Address": "false",
-    "edited": true
+    "edited": false
   },
   "Allocation Requests": [
     {
