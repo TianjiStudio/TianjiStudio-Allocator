@@ -35,12 +35,12 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "Granted",
-    "Validated At": "2025-11-07 09:00:03.105608615 UTC",
+    "State": "ReadyToSign",
+    "Validated At": "2025-11-08 08:31:08.249738692 UTC",
     "Validated By": "TianjiStudio",
     "Active": true,
-    "Updated At": "2025-11-07 09:00:03.105605342 UTC",
-    "Active Request ID": "75e77814-4796-40bc-8bf2-bee272a3c8cd",
+    "Updated At": "2025-11-08 08:31:08.249741936 UTC",
+    "Active Request ID": "392bb14c-bf3b-45d5-98fb-d8c7fd76a176",
     "On Chain Address": "f1uz3la5ci4d4rkpwg6i3e4ywhip27smwo2ttglrq",
     "Multisig Address": "false",
     "edited": false
@@ -111,6 +111,15 @@
           "Message CID": "bafy2bzaced636jz5zdw7iwjozscjslt2w6mqbcovd6ukuj2pkkrv5fwskvomo"
         }
       ]
+    },
+    {
+      "ID": "392bb14c-bf3b-45d5-98fb-d8c7fd76a176",
+      "Request Type": "Refill",
+      "Created At": "2025-11-08 08:31:08.249748389 UTC",
+      "Updated At": "2025-11-08 08:31:08.249749341 UTC",
+      "Active": true,
+      "Allocation Amount": "284113804617318B",
+      "Signers": []
     }
   ]
 }
