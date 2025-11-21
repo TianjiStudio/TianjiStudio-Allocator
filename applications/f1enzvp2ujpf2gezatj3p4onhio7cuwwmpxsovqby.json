@@ -1,0 +1,49 @@
+{
+  "Version": "1.3",
+  "ID": "f1enzvp2ujpf2gezatj3p4onhio7cuwwmpxsovqby",
+  "Issue Number": "10",
+  "Client": {
+    "Name": "Chan Zuckerberg Initiative Foundation",
+    "Region": "United States",
+    "Industry": "Life Science / Healthcare",
+    "Website": "https://cryoetdataportal.czscience.com/",
+    "Social Media": "https://chanzuckerberg.com/",
+    "Social Media Type": "Other",
+    "Role": "Data Preparer"
+  },
+  "Project": {
+    "Brief history of your project and organization": "The Chan Zuckerberg Initiative was founded in 2015 by Priscilla Chan and Mark Zuckerberg to help solve some of society’s toughest challenges — from curing or preventing disease to improving education and addressing the needs of our local communities. We provide the operational support across our areas of work.\nThe Chan Zuckerberg Institute for Advanced Biological Imaging (CZ Imaging Institute) has made a beta release of the CryoET Data Portal providing queryable and organized data from CryoET experiments. Each of the nearly 20,000 tomograms on the Portal have at least one structure annotated.",
+    "Is this project associated with other projects/ecosystem stakeholders?": "No",
+    "Describe the data being stored onto Filecoin": "CryoET Data Portal\ts3://cryoet-data-portal-public\t221.1 TiB\n\nCryo-electron tomography (cryoET) is a powerful technique for visualizing 3D structures of cellular macromolecules at near atomic resolution in their native environment. Observing the inner workings of cells in context enables better understanding about the function of healthy cells and the changes associated with disease. However, the analysis of cryoET data remains a significant bottleneck, particularly the annotation of macromolecules within a set of tomograms, which often requires a laborious and time-consuming process of manual labelling that can take months to complete. Given the current success of machine learning (ML) methods for image analysis, it seems likely that ML will have a significant impact on resolving this bottleneck. The scientific community has expressed the need to encourage further ML algorithm development by providing large training sets of annotated cryoET data in standardized formats. In response to this, we (the Chan Zuckerberg Institute for Advanced Biological Imaging & Chan Zuckerberg Initiative Foundation) have established the CryoET Data Portal (https://cryoetdataportal.czscience.com/) to provide biologists and developers open access to high-quality, standardized, annotated data that can be readily used to retrain or develop new annotation models and algorithms.",
+    "Where was the data currently stored in this dataset sourced from": "AWS Cloud",
+    "How do you plan to prepare the dataset": "We prepare the data by downloading the source data from AWS, generating CAR files using go-car, and distributing the files to storage providers via offline hard drive delivery. Subsequently, we submit deal proposals to the SPs using our custom-developed deal-sending tool.",
+    "Please share a sample of the data (a link to a file, an image, a table, etc., are good ways to do this.)": "https://cryoetdataportal.czscience.com/browse-data/datasets\n\naws s3 ls --no-sign-request s3://cryoet-data-portal-public/",
+    "Confirm that this is a public dataset that can be retrieved by anyone on the network (i.e., no specific permissions or access rights are required to view the data)": "[x] I confirm",
+    "What is the expected retrieval frequency for this data": "Yearly",
+    "For how long do you plan to keep this dataset stored on Filecoin": "1 to 1.5 years",
+    "In which geographies do you plan on making storage deals": "Asia other than Greater China, South America, Greater China",
+    "How will you be distributing your data to storage providers": "Shipping hard drives",
+    "Please list the provider IDs and location of the storage providers you will be working with. Note that it is a requirement to list a minimum of 5 unique provider IDs, and that your client address will be verified against this list in the future": "f02827565  Vietnam  \nf02826715  United States  \nf02825420  Taiwan  \nf03663680  Hong Kong  \nf03663684  Hong Kong\nf03624256  Hong Kong\nf02827377  Taiwan  \nf02827448  Vietnam",
+    "Can you confirm that you will follow the Fil+ guideline (Data owner should engage at least 4 SPs and no single SP ID should receive >30% of a client's allocated DataCap)": "Yes"
+  },
+  "Datacap": {
+    "Type": "ldn-v3",
+    "Data Type": "Slingshot",
+    "Total Requested Amount": "1.75PiB",
+    "Single Size Dataset": "221.1TiB",
+    "Replicas": 8,
+    "Weekly Allocation": "1PiB"
+  },
+  "Lifecycle": {
+    "State": "Submitted",
+    "Validated At": "",
+    "Validated By": "",
+    "Active": true,
+    "Updated At": "2025-11-21 11:15:08.966900013 UTC",
+    "Active Request ID": "",
+    "On Chain Address": "f1enzvp2ujpf2gezatj3p4onhio7cuwwmpxsovqby",
+    "Multisig Address": "false",
+    "edited": false
+  },
+  "Allocation Requests": []
+}
