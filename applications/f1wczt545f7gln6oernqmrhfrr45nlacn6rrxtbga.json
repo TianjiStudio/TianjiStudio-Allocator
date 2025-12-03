@@ -35,11 +35,11 @@
     "Weekly Allocation": "1PiB"
   },
   "Lifecycle": {
-    "State": "ReadyToSign",
-    "Validated At": "2025-12-03 05:38:28.115743655 UTC",
+    "State": "StartSignDatacap",
+    "Validated At": "2025-12-03 06:30:33.808820757 UTC",
     "Validated By": "TianjiStudio",
     "Active": true,
-    "Updated At": "2025-12-03 05:38:28.115748253 UTC",
+    "Updated At": "2025-12-03 06:30:33.808816801 UTC",
     "Active Request ID": "63e09685-1b56-4fff-a3ec-da584f83bb63",
     "On Chain Address": "f1wczt545f7gln6oernqmrhfrr45nlacn6rrxtbga",
     "Multisig Address": "false",
@@ -53,7 +53,14 @@
       "Updated At": "2025-12-03 05:38:28.115751025 UTC",
       "Active": true,
       "Allocation Amount": "109951162777600 B",
-      "Signers": []
+      "Signers": [
+        {
+          "Github Username": "TianjiStudio",
+          "Signing Address": "f1ixrkncezvsbsdijmc3vhk7v7bkowbvfsnpskkjy",
+          "Created At": "2025-12-03 06:30:31.233000000 UTC",
+          "Message CID": "bafy2bzacec2h3u6qapyde6uw6sgynm3f2f4p3izhcjvsr3kumgknkndip7f46"
+        }
+      ]
     }
   ]
 }
